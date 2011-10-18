@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "wmrug"
   s.version     = Wmrug::VERSION
   s.authors     = ["Andy Henson"]
-  s.email       = ["andrew.henson@foxsoft.net"]
+  s.email       = ["andy@elaptics.co.uk"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{An example gem for my WMRUG talk about rubygems}
+  s.description = %q{Tells you when the next WMRUG meeting is}
 
   s.rubyforge_project = "wmrug"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "thor"
 end
